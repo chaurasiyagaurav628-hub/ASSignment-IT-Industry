@@ -1,0 +1,97 @@
+Question::1
+<p>Create a file named 'network_log.txt' that holds the nslookup output for five domains of your choice, pasted one after another with the domain as a heading, and add the word IPv4 or IPv6 after every address. Hint: Run nslookup followed by the domain in Command Prompt or Terminal; dotted numbers are IPv4 and addresses with colons are IPv6. Constraint: Do not use google.com, use at least three different endings (.com, .in, .org), and write at least two names with 'www.' in front.</p>
+
+Answer::
+Microsoft Windows [Version 10.0.26200.8246]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\saurabh>nslookup example.com
+Server:  UnKnown
+Address:  172.30.187.165
+
+Non-authoritative answer:
+Name:    example.com
+Addresses:  2606:4700:8d75:72db:f2ca:51e:ef6b:ff98
+          172.66.147.243
+          104.20.23.154
+
+
+C:\Users\saurabh>nslookup www.wikipedia.org
+Server:  UnKnown
+Address:  172.30.187.165
+
+Non-authoritative answer:
+Name:    dyna.wikimedia.org
+Addresses:  2001:df2:e500:ed1a::1
+          103.102.166.224
+Aliases:  www.wikipedia.org
+
+
+C:\Users\saurabh>nslookup www.infosys.com
+Server:  UnKnown
+Address:  172.30.187.165
+
+Non-authoritative answer:
+Name:    e709.b.akamaiedge.net
+Addresses:  64:ff9b::17d8:9d6a
+          23.216.157.106
+Aliases:  www.infosys.com
+          www.infosys.com.edgekey.net
+
+
+C:\Users\saurabh>nslookup www.irctc.co.in
+Server:  UnKnown
+Address:  172.30.187.165
+
+Non-authoritative answer:
+Name:    e10002901.dsct.akamaiedge.net
+Addresses:  2600:1417:75::172d:5b8c
+          2600:1417:75::172d:5bc5
+          2600:1417:75::172d:5b84
+          2600:1417:75::172d:5bad
+          2600:1417:75::172d:5b73
+          23.212.0.106
+          23.212.0.117
+Aliases:  www.irctc.co.in
+          www.irctc.co.in-new.edgekey.net
+
+
+C:\Users\saurabh>nslookup www.amul.in
+Server:  UnKnown
+Address:  172.30.187.165
+
+Question::2
+<p>Extend 'network_log.txt' with a section named 'DNS hierarchy' that writes, for each of your five domains, the path from the root dot to the full name, for example '.' then '.org' then 'example.org' then 'www.example.org'. Constraint: Write the root as a single dot, and give every domain its own line.</p>
+
+Answer::
+DNS hierarchy
+example.com: . -> .com -> example.com
+www.wikipedia.org: . -> .org -> wikipedia.org -> www.wikipedia.org
+www.infosys.com: . -> .com -> infosys.com -> www.infosys.com
+www.irctc.co.in: . -> .in -> .co.in -> irctc.co.in -> www.irctc.co.in
+www.amul.in: . -> .in -> amul.in -> www.amul.in
+
+Question::3
+<p>Open one https website of your choice, press F12, open the Network tab, reload, and add to 'network_log.txt' a table of three requests with their name, method, status and type. Cause one 404 by typing a made-up page name into the address bar. Hint: Open DevTools before typing the bad address so the request is recorded; if the site redirects to its home page, try another site. Constraint: The table must contain at least one 200 and one 404.</p>
+
+Answer::
+Network Requests
+Name                  Method       Status       Type
+-------------------------------------------------------
+[Actual request 1]    [Method]     200          [Type]
+[Actual request 2]    [Method]     200          [Type]
+[Missing page]        GET          404          document
+
+Question::4
+<p>Finish 'network_log.txt' by adding a table named 'Tiffin network map' with five rows: open menu page, open a deleted meal page, place an order while the server crashes, send the confirmation email, and upload meal photos. Give each row its protocol (HTTP, HTTPS, FTP or SMTP) and its status code, writing 'none' where no status code applies. Then save and submit the file. Constraint: Use each of 200, 404 and 500 exactly once.</p>
+
+Answer::
+Tiffin network map
+Activity                    Protocol       Status Code
+--------------------------------------------------------
+Open menu page               HTTPS          200
+Open a deleted meal page     HTTPS          404
+Place order while server
+crashes                      HTTPS          500
+Send confirmation email      SMTP           none
+Upload meal photos           FTP            none
