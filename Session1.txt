@@ -1,0 +1,51 @@
+Question ::1
+<p>Create a text file named 'tiffin_team_plan.txt' that starts with an app name you invent for a tiffin-booking app, followed by ten lines: two tasks for each of the five roles from class (developer, tester, designer, data analyst, AI engineer). Write each line as 'Role: task' and make every task specific to tiffins, such as a meal menu or a delivery slot. Constraint: Write all ten tasks in your own words, and no two lines may start with the same verb.</p>
+
+Answer::
+TiffinTrail
+Developer: Build a booking page for selecting daily tiffin meals.
+Developer: Connect the order form to save customer meal choices.
+
+Tester: Verify that full delivery slots cannot be booked.
+Tester: Check whether order confirmations show correct meal details.
+
+Designer: Create a weekly tiffin menu layout.
+Designer: Arrange the checkout screen for easy meal selection.
+
+Data analyst: Analyze the most popular tiffin meals.
+Data analyst: Forecast the number of portions needed for Sunday.
+
+AI engineer: Train a model to suggest meals based on preferences.
+AI engineer: Recommend tiffin options based on dietary choices.
+
+Question ::2
+<p>Ask ChatGPT for the five top emerging tech jobs in India, paste its answer into 'tiffin_team_plan.txt' under the heading 'Emerging jobs', then add a sixth member to your tiffin team by choosing one of those jobs and writing one task that person does for the app. Hint: Ask ChatGPT to give each job as one short line, so the answer is easy to paste. Constraint: The sixth role must differ from the five roles already in the file.</p>
+
+Answer::
+Emerging jobs
+1. AI and Machine Learning Engineer
+2. Data Scientist
+3. Cybersecurity Specialist
+4. Cloud Computing Engineer
+5. DevOps Engineer
+Sixth Team Member
+Cybersecurity Specialist: Protect customer login details and secure the tiffin booking and payment system.
+
+Question::3
+<p>Add a table to 'tiffin_team_plan.txt' with the columns Factor, Zoho (product company), TCS (service company) and Your tiffin app, and exactly three rows: Who pays them, What they sell or deliver, and A typical work item. Hint: Draw the table with | and - characters, and view the file in a monospaced font so the columns line up. Constraint: Use your own words and no revenue figures or employee counts.</p>
+
+Answer::
+Factor | Zoho (product company) | TCS (service company) | Your tiffin app
+-------|------------------------|-----------------------|----------------
+Who pays them | Businesses buying software | Clients purchasing IT services | Customers ordering tiffins
+What they sell or deliver | Business software products | Technology services and solutions | Tiffin meals and home delivery
+A typical work item | Develop an invoicing feature | Create a website for a client | Add a Sunday special meal menu
+
+Question::4
+<p>Finish 'tiffin_team_plan.txt' by adding a section named 'Team tools' with exactly three lines, one each for GitHub, Slack and Jira, stating the exact action your team does in that tool while building the feature 'Sunday special menu'. Then save the file and submit it. Constraint: Each line must use a different action verb.</p>
+
+Answer::
+Team tools
+GitHub: Upload and commit the Sunday special menu code.
+Slack: Discuss the Sunday special menu updates with team members.
+Jira: Track the progress of Sunday special menu development tasks.
