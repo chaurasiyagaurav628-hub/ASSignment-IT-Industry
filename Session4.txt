@@ -1,0 +1,123 @@
+Question::1
+
+<p>Create 'tiffin_board.drawio' in Draw.io with a Kanban board of three columns named To Do, In Progress and Done, holding eight user stories for your tiffin app written as 'As a ..., I want ... so that ...', with five in To Do, two in In Progress and one in Done. Hint: Draw one card, then press Ctrl+D to duplicate it and edit the text. Constraint: Every story must be about a different feature of your app.</p>
+
+Answer::
+TIFFIN APP – KANBAN BOARD
+1. TO DO
+Story 1:
+As a customer, I want to register an account so that I can use the tiffin app.
+Story 2:
+As a customer, I want to log in to my account so that I can access my personal details.
+Story 3:
+As a customer, I want to view different tiffin packages so that I can choose my preferred meal plan.
+Story 4:
+As a customer, I want to search meals by category so that I can find food easily.
+Story 5:
+As a customer, I want to view meal prices so that I can select a package within my budget.
+2. IN PROGRESS
+Story 6:
+As a customer, I want to add a tiffin package to my cart so that I can order meals easily.
+Story 7:
+As a customer, I want to track my tiffin delivery so that I know when my food will arrive.
+3. DONE
+Story 8:
+As a customer, I want to view my order history so that I can check my previous orders.
+
+Question::2
+
+<p>Add a page named 'SDLC Map' to 'tiffin_board.drawio' that takes one story from your board and places it in six boxes joined by arrows: Requirement, Design, Development, Testing, Deployment and Maintenance, each with one concrete activity for that story. Constraint: The six activities must all be different and specific to the story you chose.</p>
+
+Answer::
+Selected User Story:
+As a customer, I want to track my tiffin delivery so that I know when my food will arrive.
+1. REQUIREMENT
+Activity: Collect customer requirements for checking live tiffin delivery status.
+2. DESIGN
+Activity: Design a delivery tracking page showing order status and estimated arrival time.
+3. DEVELOPMENT
+Activity: Develop a tracking page that displays delivery status using delivery data from the server.
+4. TESTING
+Activity: Test whether the tracking page correctly displays statuses such as Order Placed, Preparing and Out for Delivery.
+5. DEPLOYMENT
+Activity: Publish the delivery tracking feature on the tiffin app server.
+6. MAINTENANCE
+Activity: Fix tracking errors and update delivery status information when required.
+Arrow Flow:
+Requirement → Design → Development → Testing → Deployment → Maintenance
+
+Question::3
+
+<p>Add a page named 'Method Choice' that plans your eight stories twice: once as Waterfall (the six phases in one straight line) and once as Agile (three one-week sprints, with the stories divided among them). Hint: Draw each sprint as a labelled box and move story cards into it. Constraint: All eight stories must appear in the Agile plan, spread across exactly three sprints.</p>
+
+Answer::
+A. WATERFALL MODEL
+The eight user stories will follow six phases in a straight line.
+1. Requirement
+Collect all eight user stories and understand customer needs.
+2. Design
+Design the app pages, database structure and user interface.
+3. Development
+Develop all eight features of the tiffin application.
+4. Testing
+Test registration, login, packages, search, prices, cart, delivery tracking and order history.
+5. Deployment
+Deploy the complete tiffin application on the server.
+6. Maintenance
+Fix errors, improve performance and update app features.
+Waterfall Flow:
+Requirement → Design → Development → Testing → Deployment → Maintenance
+
+
+B. AGILE MODEL
+
+The eight user stories are divided into three one-week sprints.
+
+SPRINT 1 – WEEK 1
+
+1. Customer registration
+2. Customer login
+3. View tiffin packages
+
+SPRINT 2 – WEEK 2
+
+4. Search meals by category
+5. View meal prices
+6. Add tiffin package to cart
+
+SPRINT 3 – WEEK 3
+
+7. Track tiffin delivery
+8. View order history
+
+Agile Plan:
+Sprint 1 → Sprint 2 → Sprint 3
+
+Each sprint includes planning, development, testing and review.
+
+Question::4
+
+<p>Finish the file by adding a page named 'Scrum Team' that shows the people for your Sprint 1: a Product Owner, a Scrum Master and a Development Team of two, each with a fictional name and the one decision they make during the sprint. Then save and submit 'tiffin_board.drawio'. Constraint: Use only fictional names, and give each role a different decision.</p>
+
+Answer::
+Sprint 1 – Tiffin Application
+1. PRODUCT OWNER
+Fictional Name: Aarav Sharma
+Decision:
+Decides that customer registration and login are the highest priority features for Sprint 1.
+2. SCRUM MASTER
+Fictional Name: Riya Verma
+Decision:
+Decides the daily Scrum meeting time and helps the team resolve work-related blockers.
+3. DEVELOPMENT TEAM MEMBER 1
+Fictional Name: Kabir Mehta
+Decision:
+Decides the technical approach for developing the customer registration page.
+4. DEVELOPMENT TEAM MEMBER 2
+Fictional Name: Meera Patel
+Decision:
+Decides how to design and test the tiffin package display page.
+Sprint 1 Goal:
+Complete customer registration, customer login and tiffin package display.
+
+All names are fictional.
