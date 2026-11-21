@@ -1,0 +1,172 @@
+Question::1
+<p>Create a folder named 'tiffin_planning' holding your five files from Sessions 1 to 4 plus a 'README.md' with your app name, then run git init and make five separate commits, each adding or changing a different file, with messages of at least four words. Hint: If Git asks who you are, set git config --global user.name and user.email first, and check progress with git log --oneline. If you missed an earlier session, add a placeholder file with each missing name.</p>
+
+Answer::
+folder name : Tops Technology
+File inside this Folder --- ASSignment IT Industry
+Then,File inside this folder
+
+1. session1.txt
+2. session2.txt
+3. session3.txt
+4. session4.txt
+5. session5.txt
+6. README.md
+
+README.md Content:
+
+# Tiffin App
+
+App Name: Tasty Tiffin
+
+Description:
+Tasty Tiffin is a food ordering application where customers can view tiffin packages, select meals and order food.
+
+GIT COMMANDS:
+
+mkdir tiffin_planning
+cd tiffin_planning
+
+git init
+
+Create the five session files and README.md.
+
+git add session1.txt
+git commit -m "Add session one work"
+
+git add session2.txt
+git commit -m "Add session two work"
+
+git add session3.txt
+git commit -m "Add session three work"
+
+git add session4.txt
+git commit -m "Add session four work"
+
+git add session5.txt
+git commit -m "Add session five work"
+
+git add README.md
+git commit -m "Add project readme file"
+
+Check commits:
+
+git log --oneline
+
+Question::2
+<p>Push 'tiffin_planning' to a new public GitHub repository named 'tiffin-planning': create it on github.com without a README, connect it with git remote add origin, rename your branch to main with git branch -M main if needed, and run git push -u origin main. Hint: If git push shows an error, paste it into Copilot Chat to understand it; GitHub does not accept account passwords for Git, so sign in through the browser window. Constraint: Do not upload the files through the GitHub website.</p>
+
+Answer::
+Repository Name: ASSignment IT Industry
+
+Steps:
+
+1. Open github.com.
+2. Login to your GitHub account.
+3. Click on New Repository.
+4. Enter repository name: ASSignment IT Industry
+5. Select Public.
+6. Do not select Add a README file.
+7. Click Create Repository.
+
+Run these commands inside the ASSignment IT Industry folder:
+
+git branch -M main
+
+git remote add origin 
+
+git push -u origin main
+
+Replace YOUR-USERNAME with your actual GitHub username.
+
+Result:
+The ASSignment IT Industry  project will be uploaded to the public GitHub repository.
+
+Question::3
+<p>Fork a public GitHub repository of your choice, then open your fork on github.com and add a new file named 'my_fork_notes.txt' with three lines on why you chose that repository, committing it with the message 'Add my fork notes'. Hint: On your fork's page, use Add file, then Create new file. Constraint: Do not open a pull request to the original repository.</p>
+
+Answer::
+Steps:
+
+1. Open github.com.
+2. Search for a public repository related to HTML and CSS.
+3. Open the repository.
+4. Click the Fork button.
+5. Create your fork.
+6. Open your fork on GitHub.
+7. Click Add file.
+8. Select Create new file.
+9. Enter file name: my_fork_notes.txt.
+
+File Content:
+
+I chose this repository because it contains useful web development code.
+It helps me understand HTML and CSS concepts.
+I can learn from its project structure and examples.
+
+Commit Message:
+
+Add my fork notes
+
+Click Commit changes.
+
+Result:
+The file my_fork_notes.txt will be added to your fork.
+
+Question::4
+<p>Finish the project: on a branch named 'add-lunch-menu', add 'lunch_menu.txt' with five tiffin items and ₹ prices, push the branch, open a pull request on GitHub, merge it there, and run git pull on main so the file appears in your local folder. Submit your repository link. Hint: Create the branch with git checkout -b add-lunch-menu, push it with git push -u origin add-lunch-menu, and switch back with git checkout main before pulling. Constraint: Change no existing file on the branch.</p>
+
+Answer::
+
+Step 1: Open terminal inside ASSignment IT Industry folder.
+
+Step 2: Switch to main branch and update it.
+
+git checkout main
+git pull origin main
+
+Step 3: Create a new branch.
+
+git checkout -b add-lunch-menu
+
+Step 4: Create a new file named lunch_menu.txt.
+
+FILE CONTENT:
+
+TIFFIN LUNCH MENU
+
+1. Veg Thali - ₹80
+2. Paneer Tiffin - ₹120
+3. Dal Rice - ₹70
+4. Chole Rice - ₹90
+5. Special Tiffin - ₹150
+
+Step 5: Add and commit the new file.
+
+git add lunch_menu.txt
+git commit -m "Add lunch menu items"
+
+Step 6: Push the branch to GitHub.
+
+git push -u origin add-lunch-menu
+
+Step 7: Open GitHub.
+
+1. Open your ASSignment IT Industry repository.
+2. Select Compare & pull request.
+3. Check the base branch is main.
+4. Check the compare branch is add-lunch-menu.
+5. Click Create pull request.
+6. Click Merge pull request.
+7. Confirm merge.
+
+Step 8: Update your local main branch.
+
+git checkout main
+git pull origin main
+
+Result:
+The lunch_menu.txt file will appear in your local ASSignment IT Industry folder.
+
+Repository Link:
+https://github.com/YOUR-USERNAME/tiffin-planning
