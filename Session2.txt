@@ -1,0 +1,58 @@
+Question::1
+<p>Create a Draw.io diagram saved as 'tiffin_layers.drawio' with three stacked boxes labelled UI, Business Logic and Database, and place three components of your tiffin app inside each: screens in UI, rules in Business Logic and tables in Database. Hint: When Draw.io asks where to save, choose Device, so no account is needed. Constraint: Use the app name from 'tiffin_team_plan.txt'; if you missed Session 1, invent a name now.</p>
+
+Answer::
+TiffinTrail – UI
+- Login Screen
+- Tiffin Menu Screen
+- Order Booking Screen
+
+Business Logic
+- User Authentication Rules
+- Meal Selection Rules
+- Delivery Slot Rules
+
+Database
+- Users Table
+- Tiffin Orders Table
+- Meals Table
+
+Question::2
+<p>Add a second page named 'Platforms' to 'tiffin_layers.drawio' with three boxes, Desktop app, Web app and Mobile app, each holding the one tiffin screen you would build for that platform and where it runs: on a laptop, in a browser or on a phone. Hint: Right-click the page tab at the bottom of Draw.io to rename it or to insert a new page. Constraint: Use a different screen in each box.</p>
+
+Answer::
+Platforms
+Desktop App:
+Screen: Tiffin Management Dashboard
+Runs on: Laptop
+Web App:
+Screen: Online Tiffin Booking
+Runs on: Browser
+Mobile App:
+Screen: Daily Meal Tracking
+Runs on: Phone
+
+Question::3
+<p>Add a third page named 'Order Flow' to 'tiffin_layers.drawio' that draws 'place a tiffin order' as at least six numbered arrows between Browser, Backend and Database, covering the request going in and the response coming back. Hint: Double-click an arrow to type its label. Constraint: Label every arrow with the data it carries, such as the meal and the quantity.</p>
+
+Answer::
+Order Flow
+1. Browser -> Backend: Meal ID and Quantity
+2. Browser -> Backend: Customer Address and Delivery Slot
+3. Backend -> Database: Save Order Details
+4. Database -> Backend: Order ID and Save Status
+5. Backend -> Browser: Order Confirmation
+6. Browser -> Backend: Order Status Request
+7. Backend -> Database: Fetch Order Status
+8. Database -> Backend: Order Status and Delivery Details
+9. Backend -> Browser: Updated Order Status
+
+Question::4
+<p>Finish the diagram by dragging each box on 'Order Flow' a little to check that every arrow stays attached to it, then export that page as 'tiffin_order_flow.png' and submit it together with 'tiffin_layers.drawio'. Hint: Use File, then Export as, then PNG.</p>
+
+Answer::
+Final Check
+1. Check all boxes and arrows in Order Flow.
+2. Verify that all arrows remain attached when boxes are moved.
+3. Export Order Flow page as tiffin_order_flow.png.
+4. Save the main diagram as tiffin_layers.drawio.
